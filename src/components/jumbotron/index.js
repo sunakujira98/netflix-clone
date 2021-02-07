@@ -22,7 +22,6 @@ export default function Jumbotron({
 }
 
 Jumbotron.Container = function JumbotronContainer({ children, ...restProps }) {
-  console.log('REST PROPS', restProps)
   return <Container {...restProps}>{children}</Container>
 }
 
