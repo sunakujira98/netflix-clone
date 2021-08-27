@@ -36,6 +36,8 @@ export default function FooterContainer() {
           <Footer.Link href="#">Legal Notices</Footer.Link>
         </Footer.Column>
       </Footer.Row>
+      <Footer.Break/>
+      <Footer.Text>Nextflix Bandung Steven</Footer.Text>
     </Footer>
   )
 }
