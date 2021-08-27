@@ -60,6 +60,4 @@ export const Subtitle = styled.div`
   }
 `;
 
-export const Image = styled.img`
-  
-`;
+export const Image = styled.img``;
