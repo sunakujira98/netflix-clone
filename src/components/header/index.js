@@ -11,7 +11,8 @@ import {
   Group, 
   Link, 
   Logo, 
-  Picture, 
+  Picture,
+  PlayButton,
   Profile,
   Search,
   SearchIcon,
@@ -70,6 +71,10 @@ Header.Text = function HeaderText({ children, ...restProps }) {
 
 Header.TextLink = function HeaderTextLink({ children, ...restProps }) {
   return <Link>{children}</Link>
+}
+
+Header.PlayButton = function HeaderPlayButton({ children, ...restProps }) {
+  return <PlayButton {...restProps}>{children}</PlayButton>
 }
 
 Header.Frame = function HeaderFrame ({ children, ...restProps }) {
